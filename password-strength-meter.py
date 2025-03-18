@@ -30,7 +30,7 @@ if (password):
     if (re.search (r"[!@#$%&-_]", password)):
         user_score += 1
     else :
-        feedback_for_user.append ("👉 Password must contain one special Charecter")
+        feedback_for_user.append ("👉 Password must contain one special Charecter ( !@#$%&-_ )")
 
     if (user_score == 4):
         feedback_for_user.append ("🟢 Your Password is Strong 🎉")
